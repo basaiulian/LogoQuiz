@@ -9,5 +9,4 @@ const Navigation = () =>
                 GitHub
             </a>
         </div>
-
 export default Navigation

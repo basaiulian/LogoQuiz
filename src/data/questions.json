@@ -1,0 +1,13 @@
+{"questions": [{
+            "logo_src": "2.png",
+            "answers": ["YouTube", "React", "Instagram", "Facebook"],
+            "correct": "React"
+        },
+
+        {
+            "logo_src": "1.png",
+            "answers": ["Nescafe", "Doncafe", "Jacobs", "GitHub"],
+            "correct": "GitHub"
+        }
+    ]
+}

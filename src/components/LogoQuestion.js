@@ -1,13 +1,13 @@
-import React from 'react'
-import logo from '../public/img/logo192.png'
+import React, { Component } from 'react'
 
-
-function LogoQuestion({source}){
+class LogoQuestion extends Component{
+    render(){
     return(
     <div className="logo_question">
-        <img src={logo} alt="Logo Question"/>
+        <img src={`../logos/${this.props.logoFromParent}`} alt="Logo for quiz"></img>
     </div>
     )
+    }
 }
 
 export default LogoQuestion
