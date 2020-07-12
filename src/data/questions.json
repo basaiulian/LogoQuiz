@@ -1,13 +1,122 @@
-{"questions": [{
+{"questions": [
+        {
+            "logo_src": "1.png",
+            "answers": ["BlackCat", "Catterpillar", "SuperCats", "GitHub"],
+            "correct": "GitHub"
+        },
+    
+        {
             "logo_src": "2.png",
-            "answers": ["YouTube", "React", "Instagram", "Facebook"],
+            "answers": ["Star", "React", "RisingStar", "SunFlower"],
             "correct": "React"
         },
 
         {
-            "logo_src": "1.png",
-            "answers": ["Nescafe", "Doncafe", "Jacobs", "GitHub"],
-            "correct": "GitHub"
+            "logo_src": "3.png",
+            "answers": ["Prestige", "Pinterest", "PlayStation", "Palace"],
+            "correct": "PlayStation"
+        },
+
+        {
+            "logo_src": "4.png",
+            "answers": ["Under Armour", "XSeries", "Xbox", "United Artists"],
+            "correct": "Under Armour"
+        },
+
+        {
+            "logo_src": "5.png",
+            "answers": ["Phantom", "Star Wars", "Ghost", "Snapchat"],
+            "correct": "Snapchat"
+        },
+
+        {
+            "logo_src": "6.png",
+            "answers": ["BlueBird", "Twitter", "Phoenix", "Paradise"],
+            "correct": "Twitter"
+        },
+
+        {
+            "logo_src": "7.png",
+            "answers": ["Motorola", "///M Performance", "Movistar", "Mopar"],
+            "correct": "Movistar"
+        },
+
+        {
+            "logo_src": "8.png",
+            "answers": ["Mike", "CheckIT", "Nike", "CheckPoint"],
+            "correct": "Nike"
+        },
+
+        {
+            "logo_src": "9.png",
+            "answers": ["Adibas", "Plantropic", "Ruff", "Adidas"],
+            "correct": "Adidas"
+        },
+
+        {
+            "logo_src": "10.png",
+            "answers": ["Umbro", "Lotto", "Reebok", "Nike"],
+            "correct": "Adidas"
+        },
+
+        {
+            "logo_src": "11.png",
+            "answers": ["Adidas", "Infinity", "Reebok", "New Balance"],
+            "correct": "Reebok"
+        },
+
+        {
+            "logo_src": "12.png",
+            "answers": ["Royality", "4Rings", "Audi", "Olympic Rings"],
+            "correct": "Audi"
+        },
+
+        {
+            "logo_src": "13.png",
+            "answers": ["Skoda", "Volt", "Volkswagen", "VAWC"],
+            "correct": "Volkswagen"
+        },
+
+        {
+            "logo_src": "14.png",
+            "answers": ["AMG", "Mercedes Benz", "Peace", "Infinity"],
+            "correct": "Mercedes Benz"
+        },
+
+        {
+            "logo_src": "15.png",
+            "answers": ["Mercedes Benz", "Infinity", "Hyundai", "Mazda"],
+            "correct": "Mazda"
+        },
+
+        {
+            "logo_src": "16.png",
+            "answers": ["Hyundai", "Infinity", "Honda", "Mazda"],
+            "correct": "Honda"
+        },
+
+        {
+            "logo_src": "17.png",
+            "answers": ["Aqua Carpatica", "Philips", "StarWater", "BlueBall"],
+            "correct": "Philips"
+        },
+
+        {
+            "logo_src": "18.png",
+            "answers": ["Asus", "RedEye", "Legion", "Asus ROG"],
+            "correct": "Asus ROG"
+        },
+
+        {
+            "logo_src": "19.png",
+            "answers": ["Lexus", "Legion", "Legend", "Ford"],
+            "correct": "Lexus"
+        },
+
+        {
+            "logo_src": "20.png",
+            "answers": ["AMD", "Intel", "Nintendo", "Nvidia"],
+            "correct": "Nvidia"
         }
     ]
 }

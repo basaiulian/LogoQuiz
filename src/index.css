@@ -22,10 +22,8 @@ code {
 }
 
 .header{
-  background-color: rgba(41, 120, 145, 0.5);
-  border: 20px;
-  border-radius: 10px;
-  height: 50px;
+  background-color: rgba(44, 52, 58, 0.671);
+  height: 80px;
   display: flex;
   text-align: center;
   overflow: hidden;
@@ -44,8 +42,10 @@ code {
 
 #logo img{
   margin: 0;
-  position: relative;
-  width: 3vw;
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 4%;
   background-color: rgba(128, 128, 128, 0);
   border: 20px;
   border-radius: 15px;
@@ -57,9 +57,9 @@ code {
 }
 
 #nav a{
-  background-color: rgba(207, 236, 245, 0.356);
+  background-color: rgba(92, 209, 245, 0.11);
   float: right;
-  color: black;
+  color: white;
   text-align: center;
   padding: 6px 12px;
   text-decoration: none;
@@ -73,6 +73,7 @@ code {
 #nav a:hover{
   background-color: rgb(132, 248, 242);
   transition-duration: 1s;
+  color:black;
 }
 
 #footer{
@@ -80,12 +81,12 @@ code {
   display: flex;
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: rgba(44, 52, 58, 0.671);
   color: rgb(190, 237, 245);
-  height: 2vw;
+  height: 80px;
   overflow: hidden;
-  padding: 20px 10px;
   bottom: 0;
 }
 
@@ -133,6 +134,31 @@ code {
   text-align: center;
 }
 
+.result{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+  display: flex;
+  bottom: 0;
+  top:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answers_big_box{
+  display: block;
+}
+
+.answers_big_box::before{
+  color:red;
+}
+
+
+.answers_big_box::after{
+  color:green;
+
+}
+
 .answers_box{
   position: absolute;
   left: 50%;
@@ -146,6 +172,21 @@ code {
 .answer_button{
   flex:1;
   background-color: rgba(222, 184, 135, 0.712);
+  color:rgb(5, 4, 59);
+  border: 1px black;
+  border-radius: 10px;
+  min-width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.next_button{
+  flex:1;
+  background-color: rgba(128, 100, 255, 0.658);
+  color:rgb(5, 4, 59);
   border: 1px black;
   border-radius: 10px;
   min-width: 80px;
@@ -159,6 +200,7 @@ code {
 .answer_button:hover{
   background-color: rgb(240, 171, 81);
   transition-duration: 1s;
+  color:black;
 }
 
 #author{
@@ -168,29 +210,8 @@ code {
   float: left;
 }
 
-#date{
-  position: relative;
-  font-size: 15px;
-  float: right;
-  flex: 1;
-}
-
-#time{
-  position: relative;
-  font-size: 15px;
-  float: right;
-  flex: 1;
-  margin-right: 5%;
-}
-
 #name{
   width: 100%;
-  text-align: center;
-}
-
-#bio{
-  padding-left: 30%;
-  padding-right: 30%;
   text-align: center;
 }
 
