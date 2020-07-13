@@ -145,6 +145,15 @@ code {
   margin-right: auto;
 }
 
+#score{
+  margin-left: 2%;
+  color:rgb(5, 4, 59);
+}
+
+#correct{
+  color:rgb(5, 4, 59);
+}
+
 .answers_big_box{
   display: block;
 }
@@ -176,6 +185,7 @@ code {
   border: 1px black;
   border-radius: 10px;
   min-width: 120px;
+  height: 70px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
